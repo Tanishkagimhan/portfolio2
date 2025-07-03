@@ -1,18 +1,4 @@
-/*
- * Copyright 2025 Praveen Kumar
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+
 
 import { PortfolioConfig } from '@/app/types/config';
 import { socials } from '@/app/config/socials';
@@ -25,14 +11,14 @@ import { skills } from '@/app/config/skills';
  */
 export const portfolioConfig: PortfolioConfig = {
   siteMetadata: {
-    title: 'Praveen Kumar',
-    description: 'Portfolio website by Praveen',
-    author: 'Praveen Kumar',
+    title: 'Tanishka Gimhan',
+    description: 'Portfolio website by Tanishka',
+    author: 'Tanishka Gimhan',
   },
 
   navigation: {
     logo: {
-      text: 'PK',
+      text: 'Tanishka Gimhan',
     },
     links: [
       { href: 'home', label: 'Home' },
@@ -46,7 +32,7 @@ export const portfolioConfig: PortfolioConfig = {
   sections: {
     home: {
       greeting: "Hi, I'm",
-      name: 'Praveen Kumar',
+      name: 'Tanishka Gimhan',
       typingTexts: [
         'Building digital experiences',
         'Solving complex problems',
@@ -109,7 +95,7 @@ export const portfolioConfig: PortfolioConfig = {
       projects: projects,
       viewMoreButton: {
         label: 'View More Projects',
-        url: 'https://github.com/PraveenGongada',
+        url: 'https://github.com/Tanishkagimhan',
       },
     },
 
@@ -131,7 +117,7 @@ export const portfolioConfig: PortfolioConfig = {
   },
 
   footer: {
-    copyright: `© ${new Date().getFullYear()} Praveen Kumar. All rights reserved.`,
+    copyright: `© ${new Date().getFullYear()} Tanishka Gimhan. All rights reserved.`,
     tagline: 'Designed and built with ❤️',
   },
 };
